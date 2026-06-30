@@ -8,17 +8,17 @@ export default function Success() {
       setCountdown((prev) => {
         if (prev <= 1) {
           clearInterval(interval);
-
-          window.location.href =
-            "https://wa.me/919818612625?text=Yes%20❤️";
-
+  
+          const message = "Yes ❤️";
+          window.location.href = `https://wa.me/919818612625?text=${encodeURIComponent(message)}`;
+  
           return 0;
         }
-
+  
         return prev - 1;
       });
     }, 1000);
-
+  
     return () => clearInterval(interval);
   }, []);
 
