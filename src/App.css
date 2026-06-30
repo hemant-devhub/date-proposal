@@ -10,8 +10,8 @@ body{
 }
 
 .page{
-    width:100vw;
-    height:100vh;
+    width:100%;
+    min-height:100dvh;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -106,5 +106,52 @@ h1{
     }
     100%{
         transform:scale(1);
+    }
+}
+
+/* Mobile - Success Page */
+@media (max-width: 600px) {
+
+    .page{
+        padding:16px;
+        height:100dvh;
+    }
+
+    .card{
+        width:100%;
+        max-width:100%;
+        padding:20px 18px;
+        border-radius:20px;
+    }
+
+    .success .gif{
+        width:120px;
+        margin-bottom:12px;
+    }
+
+    .success h1{
+        font-size:28px;
+        margin-bottom:12px;
+    }
+
+    .success p{
+        font-size:16px;
+        line-height:1.4;
+        margin:8px 0;
+    }
+
+    .success h2{
+        font-size:24px;
+        margin-top:16px;
+    }
+
+    .countdown{
+        margin-top:18px;
+        font-size:18px;
+    }
+
+    .countdown span{
+        font-size:42px;
+        margin-top:6px;
     }
 }
