@@ -38,7 +38,7 @@ export default function Success() {
         </p>
 
         <p>
-          Tomorrow is our <b>4 Month Anniversary ❤️</b>
+          Tomorrow is our <b>Anniversary ❤️</b>
         </p>
 
         <p>
@@ -50,7 +50,7 @@ export default function Success() {
         <h2>I Love You ❤️</h2>
 
         <div className="countdown">
-          Opening WhatsApp in...
+          💌 One Last Surprise In… 
           <br />
           <span>{countdown}</span>
         </div>
